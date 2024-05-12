@@ -1,0 +1,30 @@
+.CountryDetails {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__img {
+        width: 300px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    &__coatOfArms {
+        margin-left: auto;
+        width: 400px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        &_item {
+            font-size: 24px;
+        }
+    }
+}
